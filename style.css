@@ -1,3 +1,10 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Smooch&display=swap');
+  
+  
+  @import url('https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@1,300&display=swap');
+
+
 *{
     padding: 0;
     margin: 0;
@@ -8,21 +15,35 @@ body{
     justify-content: center;
     align-items: center;
     min-height: 100vh;
+    background-color: grey;
 }
 .container{
     width: 375px;
     padding: 10px;
+    border: 1px solid wheat;
+    border-radius: 10px;
 }
 .container div{
     display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 15px;
 }
 img{
     flex: 1;
-    width: 100%;
+    width: 0;
+    border-radius: 5px;
 }
 h1{
-    flex: 1;
+    flex: 2;
+    margin-left: 5px;
+    font-family: 'Smooch', cursive;
+    font-weight: 600;
 }
 p{
     text-align: center;
+    font-size: 18px;
+    color: whitesmoke;
+    font-family: 'Ubuntu', sans-serif;
 }
